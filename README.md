@@ -6,3 +6,4 @@ position bias
 citation count high
 journal index if citation count is 0 or paper is new.
 sources: google scholar, socpus, NIH 
+export citation reference
