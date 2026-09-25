@@ -1,0 +1,225 @@
+[
+  {
+    "id": "39d1f7ee222f6b1af5541a12e38d0bc40746e7dc",
+    "title": "Explainable Solvation Free Energy Prediction Combining Graph Neural Networks with Chemical Intuition",
+    "abstract": "The prediction of a molecule's solvation Gibbs free (ΔGsolv) energy in a given solvent is an important task which has traditionally been carried out via quantum chemical continuum methods or force field-based molecular simulations. Machine learning (ML) and graph neural networks in particular have emerged as powerful techniques for elucidating structure-property relationships. This work presents a graph neural network (GNN) for the prediction of ΔGsolv which, in addition to encoding typical atom and bond-level features, incorporates chemically intuitive, solvation-relevant parameters into the featurization process: semiempirical partial atomic charges and solvent dielectric constant. Solute-solvent interactions are included via an interaction map layer which can be visualized to examine solubility-enhancing or -decreasing interactions learnt by the model. On a test set of small organic molecules, our GNN predicts ΔGsolv in water and cyclohexane with an accuracy comparable to polarizable and ab initio generated force field methods [mean absolute error (MAE) = 0.4 and 0.2 kcal mol-1, respectively], without the need for any molecular simulation. For the FreeSolv data set of hydration free energies, the test MAE is 0.7 kcal mol-1. Interpretability and applicability of the model is highlighted through several examples including rationalizing the increased solubility of modified diaminoanthraquinones in organic solvents. The clear explanations afforded by our GNN allow for easy understanding of the model's predictions, giving the experimental chemist confidence in employing ML models toward more optimized synthetic routes.",
+    "year": 2022,
+    "venue": "Journal of Chemical Information and Modeling",
+    "authors": [
+      "Kaycee Low",
+      "M. Coote",
+      "E. Izgorodina"
+    ],
+    "citation_count": 42,
+    "influential_citation_count": 0,
+    "doi": "10.1021/acs.jcim.2c01013",
+    "arxiv_id": null,
+    "url": "https://www.semanticscholar.org/paper/39d1f7ee222f6b1af5541a12e38d0bc40746e7dc",
+    "pdf_url": "",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "id": "4cf7b0656c4522b4fcf6af14a8628a804ec80822",
+    "title": "MSI-XGNN: an explainable GNN computational framework integrating transcription- and methylation-level biomarkers for microsatellite instability detection",
+    "abstract": "Microsatellite instability (MSI) is a hypermutator phenotype caused by DNA mismatch repair deficiency. MSI has been reported in various human cancers, particularly colorectal, gastric and endometrial cancers. MSI is a promising biomarker for cancer prognosis and immune checkpoint blockade immunotherapy. Several computational methods have been developed for MSI detection using DNA- or RNA-based approaches based on next-generation sequencing. Epigenetic mechanisms, such as DNA methylation, regulate gene expression and play critical roles in the development and progression of cancer. We here developed MSI-XGNN, a new computational framework for predicting MSI status using bulk RNA-sequencing and DNA methylation data. MSI-XGNN is an explainable deep learning model that combines a graph neural network (GNN) model to extract features from the gene-methylation probe network with a CatBoost model to classify MSI status. MSI-XGNN, which requires tumor-only samples, exhibited comparable performance with two well-known methods that require tumor-normal paired sequencing data, MSIsensor and MANTIS and better performance than several other tools. MSI-XGNN also showed good generalizability on independent validation datasets. MSI-XGNN identified six MSI markers consisting of four methylation probes (EPM2AIP1|MLH1:cg14598950, EPM2AIP1|MLH1:cg27331401, LNP1:cg05428436 and TSC22D2:cg15048832) and two genes (RPL22L1 and MSH4) constituting the optimal feature subset. All six markers were significantly associated with beneficial tumor microenvironment characteristics for immunotherapy, such as tumor mutation burden, neoantigens and immune checkpoint molecules such as programmed cell death-1 and cytotoxic T-lymphocyte antigen-4. Overall, our study provides a powerful and explainable deep learning model for predicting MSI status and identifying MSI markers that can potentially be used for clinical MSI evaluation.",
+    "year": 2023,
+    "venue": "Briefings Bioinform.",
+    "authors": [
+      "Yang Cao",
+      "Dan Wang",
+      "Jin Wu",
+      "Z. Yao",
+      "Si Shen",
+      "Chao Niu",
+      "et al."
+    ],
+    "citation_count": 14,
+    "influential_citation_count": 2,
+    "doi": "10.1093/bib/bbad362",
+    "arxiv_id": null,
+    "url": "https://www.semanticscholar.org/paper/4cf7b0656c4522b4fcf6af14a8628a804ec80822",
+    "pdf_url": "https://academic.oup.com/bib/article-pdf/24/6/bbad362/52085101/bbad362.pdf",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "id": "3671a4fbdd859be395220f0773f60666024c3757",
+    "title": "XplainScreen: Unveiling the Black Box of Graph Neural Network Drug Screening Models with a Unified XAI Framework",
+    "abstract": "Despite the powerful capabilities of GNN-based drug screening model in predicting target drug properties, the black-box nature of these models poses a challenge for practical application, particularly in a field as critical as drug development where understanding and trust in AI-driven decisions are important. To address the interpretability issues associated with GNN-based virtual drug screening, we introduce XplainScreen: a unified explanation framework designed to evaluate various explanation methods for GNN-based models. XplainScreen offers a user-friendly, web-based interactive platform that allows for the selection of specific GNN-based drug screening models and multiple cutting-edge explainable AI methods. It supports both qualitative assessments (through visualization and generative text descriptions) and quantitative evaluations of these methods, utilizing drug molecules in SMILES format. This demonstration showcases the utility of XplainScreen through a user study with pharmacological researchers focused on virtual screening tasks based on toxicity, highlighting the framework's potential to enhance the integrity and trustworthiness of AI-driven virtual drug screening. A video demo of XplainScreen is available at https://youtu.be/Q4yobrTLKec, and the source code can be accessed at https://github.com/GeonHeeAhn/XplainScreen.",
+    "year": 2024,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+      "G. Ahn",
+      "Md. Mahim Anjum Haque",
+      "Subhashis Hazarika",
+      "Soo-Kyung Kim"
+    ],
+    "citation_count": 7,
+    "influential_citation_count": 0,
+    "doi": "10.1145/3627673.3679236",
+    "arxiv_id": null,
+    "url": "https://www.semanticscholar.org/paper/3671a4fbdd859be395220f0773f60666024c3757",
+    "pdf_url": "https://doi.org/10.1145/3627673.3679236",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "id": "d815bc4a0aad17e8bc510043386e678bb7cbbb7d",
+    "title": "X-GRL: An Empirical Assessment of Explainable GNN-DRL in B5G/6G Networks",
+    "abstract": "The rapid development of artificial intelligence (AI) techniques has triggered a revolution in beyond fifth-generation (B5G) and upcoming sixth-generation (6G) mobile networks. Despite these advances, efficient resource allocation in dynamic and complex networks remains a major challenge. This paper presents an experimental implementation of deep reinforcement learning (DRL) enhanced with graph neural networks (GNNs) on a real 5G testbed. The method addresses the explainability of GNNs by evaluating the importance of each edge in determining the model's output. The custom sampling functions feed the data into the proposed GNN-driven Monte Carlo policy gradient (REINFORCE) agent to optimize the gNodeB (gNB) radio resources according to the specific traffic demands. The demo demonstrates real-time visualization of network parameters and superior performance compared to benchmarks.",
+    "year": 2023,
+    "venue": "Conference on Network Function Virtualization and Software Defined Network",
+    "authors": [
+      "Farhad Rezazadeh",
+      "Sergio Barrachina-Muñoz",
+      "Engin Zeydan",
+      "Houbing Song",
+      "K. P. Subbalakshmi",
+      "J. Mangues-Bafalluy"
+    ],
+    "citation_count": 7,
+    "influential_citation_count": 1,
+    "doi": "10.1109/NFV-SDN59219.2023.10329778",
+    "arxiv_id": "2311.08798",
+    "url": "https://www.semanticscholar.org/paper/d815bc4a0aad17e8bc510043386e678bb7cbbb7d",
+    "pdf_url": "",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "id": "7b42416a03dcc28dc6d0ad1aa320db687a042a4e",
+    "title": "Explainable GNN-Based Approach to Fault Forecasting in Cloud Service Debugging",
+    "abstract": "Debugging cloud services is increasingly challenging due to their distributed, dynamic, and scalable nature. Traditional methods struggle to handle large state spaces and the complex interactions between microservices, making it difficult to diagnose failures and identify critical components. This paper presents a Graph Neural Network (GNN)-based approach that enhances cloud service debugging by predicting system-level fault probabilities and providing interpretable insights into failure propagation. Our method models microservice interactions as graphs, where failures propagate probabilistically. Using Markov Decision Processes (MDPs), we simulate failure behaviors, capturing the probabilistic dependencies that influence system reliability. The trained GNN not only predicts fault probabilities but also identifies the most failure-prone microservices and explains their impact. We evaluate our approach on various service mesh structures, including feature-enriched, tree-structured, and general directed acyclic graph (DAG) architectures. Results indicate that our method is effective in the operational phase of cloud services, enabling proactive debugging and targeted optimization. This work represents a step toward more interpretable, reliable, and maintainable cloud infrastructures.",
+    "year": 2025,
+    "venue": "IEEE Transactions on Network and Service Management",
+    "authors": [
+      "Dániel Unyi",
+      "Ernő Rigó",
+      "Bálint Gyires-Tóth",
+      "R. Lovas"
+    ],
+    "citation_count": 4,
+    "influential_citation_count": 0,
+    "doi": "10.1109/TNSM.2025.3602223",
+    "arxiv_id": null,
+    "url": "https://www.semanticscholar.org/paper/7b42416a03dcc28dc6d0ad1aa320db687a042a4e",
+    "pdf_url": "https://doi.org/10.1109/tnsm.2025.3602223",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "id": "2becfe4fa35fc72283be909c46210dac3d47b9fd",
+    "title": "Unveiling molecular moieties through hierarchical Grad-CAM graph explainability",
+    "abstract": "Virtual Screening (VS) has become an essential tool in drug discovery, enabling the rapid and cost-effective identification of potential bioactive molecules. Among recent advancements, Graph Neural Networks (GNNs) have gained prominence for their ability to model complex molecular structures using graph-based representations. However, the integration of explainable methods to elucidate the specific contributions of molecular substructures to biological activity remains a significant challenge. This limitation hampers both the interpretability of predictive models and the rational design of novel therapeutics. We trained 20 GNN models on a dataset of small molecules with the goal of predicting their activity on 20 distinct protein targets from the Kinase family. These classifiers achieved state-of-the-art performance in virtual screening tasks, demonstrating high accuracy and robustness on different targets. Building upon these models, we implemented the Hierarchical Grad-CAM graph Explainer (HGE) framework, enabling an in-depth analysis of the molecular moieties driving protein-ligand binding stabilization. HGE exploits Grad-CAM explanations at the atom, ring, and whole-molecule levels, leveraging the message-passing mechanism to highlight the most relevant chemical moieties. Validation against experimental data from the literature confirmed the ability of the explainer to recognize a molecular pattern of drugs and correctly annotate them to the known target. Our approach may represent a valid support to shorten both the screening and the hit discovery process. Detailed knowledge of the molecular substructures that play a role in the binding process can help the computational chemist to gain insights into the structure optimization, as well as in drug repurposing tasks.",
+    "year": 2024,
+    "venue": "BMC Bioinformatics",
+    "authors": [
+      "S. Contino",
+      "Paolo Sortino",
+      "M. R. Gulotta",
+      "U. Perricone",
+      "R. Pirrone"
+    ],
+    "citation_count": 3,
+    "influential_citation_count": 0,
+    "doi": "10.1186/s12859-025-06208-y",
+    "arxiv_id": "2402.01744",
+    "url": "https://www.semanticscholar.org/paper/2becfe4fa35fc72283be909c46210dac3d47b9fd",
+    "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/s12859-025-06208-y",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "id": "81d6895dcb0a21e5d19839094969619d882dd05d",
+    "title": "Explainability of Molecular Graph Neural Network",
+    "abstract": "Graph Neural Networks (GNNs) have demonstrated strong performance in molecular interaction prediction, but their interpretability remains limited, especially in domain-specific applications like ligand-receptor modeling. This paper presents a model-agnostic explainer for GNN-CLS, a specialized GNN model designed to predict interactions between molecules and olfactory receptor proteins. The proposed method uses cooperative game theory to identify influential molecular substructures and receptor sequence regions, offering faithful and theoretically grounded explanations of model predictions. This approach enhances transparency by revealing which features drive predictive outcomes, helping bridge the gap between model performance and chemical insight. The contributions include a formal framework for relevance attribution and interaction analysis, positioning this work at the intersection of explainable AI and computational chemistry.",
+    "year": 2025,
+    "venue": "International Conference on Data Science and Advanced Analytics",
+    "authors": [
+      "Ataollah Kamal",
+      "Matej Hladiš",
+      "J. Topin",
+      "Marc Plantevit",
+      "S. Fiorucci",
+      "C. Robardet"
+    ],
+    "citation_count": 1,
+    "influential_citation_count": 0,
+    "doi": "10.1109/DSAA65442.2025.11248008",
+    "arxiv_id": null,
+    "url": "https://www.semanticscholar.org/paper/81d6895dcb0a21e5d19839094969619d882dd05d",
+    "pdf_url": "",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "id": "4be8b243bef515e04033635933e13fee831d8ac5",
+    "title": "Explainable graph neural networks for drug-target interaction prediction: a gnnexplainer-augmented framework with molecular graph representation",
+    "abstract": "Drug-target interactions (DTIs) are important systems to predict, as they define the set of drug candidate molecules that are capable of binding efficiently to disease relevant protein target. The traditional computational methods use feature engineering on molecular fingerprint or similarity measures based on sequence level, which have limited ability in modeling the rich topological structure of the molecular graph. To solve the problems listed above, we propose a new explainable graph neural network framework, GNN-XAI, that unites multi-layer Graph Convolutional Networks (GCNs) with the GNNExplainer attribution method to merely ensure high-accuracy DTI prediction while providing biochemically interpretable explanations of binding site interactions. Molecules are drawn as attributed graphs, with the nodes drawn and their attributes painted, and the edges drawn and their types colored. Evaluation of the framework was conducted on BindingDB and ChEMBL-29 benchmark sets using AUC-ROC, AUPR and F1-score results of 0.961, 0.948 and 93.2 respectively were achieved. The plausibility of the biological fidelity of the derived subgraph attributions was verified by comparing to experimental crystallographic binding data in the GNNExplainer. Benchmark ablation experiments and generalization across datasets prove the robustness and clinical benefits of the proposed approach.",
+    "year": 2025,
+    "venue": "Journal of Artificial Intelligence, Machine Learning and Neural Network",
+    "authors": [
+      "Mayur R. Bhoyar"
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "doi": "10.55529/jaimlnn.52.97.106",
+    "arxiv_id": null,
+    "url": "https://www.semanticscholar.org/paper/4be8b243bef515e04033635933e13fee831d8ac5",
+    "pdf_url": "https://journal.hmjournals.com/index.php/JAIMLNN/article/download/6346/4034",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  },
+  {
+    "id": "317de6c1e7f2d9497e141c646247e28b0215a907",
+    "title": "CHEM: Causally and Hierarchically Explaining Molecules",
+    "abstract": "Graph Neural Networks (GNNs) have significantly advanced in analyzing graph-structured data; however, their explainability remains challenging, affecting their applicability in critical domains such as medicine and pharmacology. In particular, violating the subgraph structure can degrade model interpretability and generalization performance. To address this problem, we propose a hierarchical and explainable causal inference-based GNN. Our model selects features based on explainable subgraph units informed by prior knowledge. Our method begins by clustering molecules into functional groups via the BRICS algorithm, then constructing a hierarchical structure at both the node and motif levels. The proposed model employs a gate module that distills causal features on the motif level and a loss function that disconnects information flow from non-causal features to the target level. The classification results on real-world molecular graphs demonstrate that our model outperforms other causal inference-based GNN models. In addition, it is confirmed that leveraging molecular docking data effectively identifies true causal substructures in the proposed model.",
+    "year": 2025,
+    "venue": "International Conference on Information and Knowledge Management",
+    "authors": [
+      "Gyeongdong Woo",
+      "Soyoung Cho",
+      "Donghyeon Kim",
+      "Kimoon Na",
+      "Changhyun Kim",
+      "Jinhee Choi",
+      "et al."
+    ],
+    "citation_count": 0,
+    "influential_citation_count": 0,
+    "doi": "10.1145/3746252.3761376",
+    "arxiv_id": null,
+    "url": "https://www.semanticscholar.org/paper/317de6c1e7f2d9497e141c646247e28b0215a907",
+    "pdf_url": "https://doi.org/10.1145/3746252.3761376",
+    "is_survey": false,
+    "matched_queries": [
+      "explainable GNN molecules"
+    ],
+    "source": "semantic_scholar"
+  }
+]
